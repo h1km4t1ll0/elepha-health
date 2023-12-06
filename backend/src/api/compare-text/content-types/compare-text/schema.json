@@ -1,0 +1,37 @@
+{
+  "kind": "singleType",
+  "collectionName": "compare_texts",
+  "info": {
+    "singularName": "compare-text",
+    "pluralName": "compare-texts",
+    "displayName": "compare-text",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "activationUp": {
+      "type": "text"
+    },
+    "activationDown": {
+      "type": "text"
+    },
+    "balanceUp": {
+      "type": "text"
+    },
+    "balanceDown": {
+      "type": "text"
+    },
+    "restUp": {
+      "type": "text"
+    },
+    "restDown": {
+      "type": "text"
+    },
+    "default": {
+      "type": "text"
+    }
+  }
+}

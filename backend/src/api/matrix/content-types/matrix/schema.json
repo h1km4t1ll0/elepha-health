@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "matrices",
+  "info": {
+    "singularName": "matrix",
+    "pluralName": "matrices",
+    "displayName": "Matrix"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "audioUrl": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "recommendations": {
+      "type": "string"
+    }
+  }
+}
