@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "entryPoint": "./src/entry.js",
+    "name": "elepha_health_front_FSD",
+    "slug": "elepha_health_front_FSD",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "src/shared/ui/assets/icon.png",
+    "userInterfaceStyle": "light",
+    "scheme": "elepha",
+    "splash": {
+      "image": "src/shared/ui/assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "src/shared/ui/assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

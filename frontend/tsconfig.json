@@ -1,0 +1,32 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strict": true,
+    "baseUrl": "src",
+    "paths": {
+      "components/*": ["./components/*"],
+      "pages/*": ["./pages/*"],
+      "entities/*": ["./entities/*"],
+      "features/*": ["./features/*"],
+      "shared/*": ["./shared/*"],
+      "widgets/*": ["./widgets/*"],
+      "app/*": ["./app/*"],
+    },
+//    "baseUrl": "./",
+//    "paths": {
+//      "pages/*": [
+//        "src/pages/*"
+//      ]
+//    }
+////    "moduleResolution": "node",
+//    "resolveJsonModule": true,
+//    "isolatedModules": true,
+//    "noEmit": true,
+//    "jsx": "react-jsx"
+  },
+//  "include": [
+//    "./src"
+//  ]
+}
