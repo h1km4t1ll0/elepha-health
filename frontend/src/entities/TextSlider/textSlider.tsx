@@ -42,10 +42,10 @@ export const TextSlider: FC<TextSliderProps> = ({ data }) => {
   }, []);
 
   return <>
-    <Animated.View style={{ marginTop: '25%', marginLeft: 10, marginRight: 10, opacity: fade, width: '80%' }}>
+    <Animated.View style={{marginLeft: 10, marginRight: 10, opacity: fade, width: '80%' }}>
       <Text
           type='big'
-          textStyles={{ color: 'rgba(195, 216, 228, 1)', textAlign: 'center', textTransform: 'uppercase' }}
+          textStyles={{ color: '#000000', textAlign: 'center', textTransform: 'uppercase' }}
       >
         {data[currentIdx]}
       </Text>

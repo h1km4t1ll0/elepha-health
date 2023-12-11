@@ -16,7 +16,7 @@ export const linkingConfiguration: LinkingOptions<RootStackParamList> = {
     config: {
         initialRouteName: 'Welcome',
         screens: {
-            Welcome: '/',
+            Welcome: '/welcome',
             Matrix: '/matrix',
             Login: '/email',
             Reset: '/reset',
