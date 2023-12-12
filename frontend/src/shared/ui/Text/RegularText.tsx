@@ -6,7 +6,7 @@ import {TextProps} from './types';
 export const RegularText: FunctionComponent<TextProps> = (props) => {
   const styles = {
     fontSize: 18,
-    fontFamily: 'Montserrat_400Regular',
+    fontFamily: 'Montserrat_500Medium',
     ...(props.textStyles as object),
   };
 

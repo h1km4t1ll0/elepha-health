@@ -5,12 +5,12 @@ import {TextProps} from './types';
 
 export const BigText: FunctionComponent<TextProps> = (props) => {
   const styles = {
-    fontFamily: 'Montserrat_400Regular',
+    fontFamily: 'Montserrat_600SemiBold',
     ...(props.textStyles as object),
   };
 
   return (
-    <RNText style={styles} className='text-[20px] text-center leading-6 font-semibold text-black pt-1'>
+    <RNText style={styles} className='text-[20px] text-center leading-6 text-black pt-1'>
       {props.children}
     </RNText>
   );

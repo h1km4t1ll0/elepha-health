@@ -6,6 +6,8 @@ import React, {useCallback} from 'react';
 import {GestureHandlerRootView} from 'react-native-gesture-handler';
 import {
     Montserrat_400Regular,
+    Montserrat_500Medium,
+    Montserrat_600SemiBold,
 } from '@expo-google-fonts/montserrat';
 
 SplashScreen.preventAutoHideAsync();
@@ -16,7 +18,9 @@ function App() {
     // (AppLoading);
 
     const [fontsLoaded] = useFonts({
-        Montserrat_400Regular
+        Montserrat_400Regular,
+        Montserrat_500Medium,
+        Montserrat_600SemiBold
     });
 
     const onLayoutRootView = useCallback(async () => {

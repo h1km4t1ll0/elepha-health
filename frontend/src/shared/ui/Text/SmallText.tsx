@@ -6,6 +6,7 @@ import {TextProps} from './types';
 export const SmallText: FunctionComponent<TextProps> = (props) => {
   const styles = {
     fontSize: 16,
+    fontFamily: 'Montserrat_400Regular',
     ...(props.textStyles as object),
   };
 

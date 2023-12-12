@@ -44,7 +44,7 @@ export const TextSlider: FC<TextSliderProps> = ({ data }) => {
   return <>
     <Animated.View style={{marginLeft: 10, marginRight: 10, opacity: fade, width: '80%' }}>
       <Text
-          type='big'
+          type='regular'
           textStyles={{ color: '#000000', textAlign: 'center', textTransform: 'uppercase' }}
       >
         {data[currentIdx]}

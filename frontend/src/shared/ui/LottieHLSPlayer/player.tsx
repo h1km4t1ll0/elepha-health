@@ -93,7 +93,8 @@ export const LottieHLSPlayer: FunctionComponent<HLSPlayerComponent> = (props) =>
     }, []);
 
     return (
-        <View className='w-[300px] h-[300px] relative rounded-[16px]'>
+        <View className='w-[300px] h-[300px] relative rounded-[16px]'
+            style={{alignSelf: 'center'}}>
             <ImageBackground source={bg} className='absolute w-full h-full' imageStyle={{ borderRadius: 16 }} />
             <View className='absolute w-full h-full z-10 bg-dark-teal opacity-50 rounded-[16px]' />
 
